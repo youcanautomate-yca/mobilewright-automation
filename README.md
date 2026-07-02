@@ -46,4 +46,13 @@ npx mobilewright test
 
 ## Helpful Resources
 
+| Title | Platform | Language | Episode | Link |
+| --- | --- | --- | --- | --- |
+| MobileWright Automation | iOS | Typescript | Introduction & Setup - Episode #1 | [https://youtu.be/gqa0M5JA2Ro](https://youtu.be/gqa0M5JA2Ro) |
+| MobileWright | iOS | Typescript | Page Objects & Test Script - Episode #2 | [https://youtu.be/MmOr_qPxgLo](https://youtu.be/MmOr_qPxgLo) |
+
+MobileWright YouTube playlist:
+
+https://www.youtube.com/playlist?list=PLLz4P06JoExtiTX5RO0JiBHL2K5LwhVoK
+
 
