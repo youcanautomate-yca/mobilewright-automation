@@ -1,0 +1,45 @@
+# Node
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Playwright
+test-results/
+playwright-report/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Output
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
