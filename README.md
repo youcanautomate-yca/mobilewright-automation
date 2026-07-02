@@ -6,6 +6,10 @@ A MobileWright automation repository for iOS mobile app testing using MobileWrig
 
 This repository contains a MobileWright test suite configured for iOS using the `mobilewright.config.ts` file. The current setup targets the `com.Imen.ecommerceApp` bundle ID and uses the `./tests` directory for test files.
 
+MobileWright YouTube playlist:
+
+https://www.youtube.com/playlist?list=PLLz4P06JoExtiTX5RO0JiBHL2K5LwhVoK
+
 ## Key Files
 
 - `mobilewright.config.ts` - MobileWright configuration file
@@ -42,6 +46,4 @@ npx mobilewright test
 
 ## Helpful Resources
 
-MobileWright YouTube playlist:
 
-https://www.youtube.com/playlist?list=PLLz4P06JoExtiTX5RO0JiBHL2K5LwhVoK
