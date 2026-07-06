@@ -11,3 +11,23 @@ test('app launches and shows home screen and logout ', async ({ screen, device }
     await  homeScreen.clickOnProduct();
     await homeScreen.logout();
 });
+
+test('app launches and shows home screen and logout new', async ({ screen, device }) => {
+
+    const loginScreen = new LoginScreen(screen);
+    const homeScreen = new HomeScreen(screen);
+    
+    await loginScreen.login('youcanautomate@gmail.com', 'Test123');
+    await  homeScreen.clickOnProduct();
+    await homeScreen.logout();
+});
+
+test('app launches and shows home screen and logout updated', async ({ screen, device }) => {
+
+    const loginScreen = new LoginScreen(screen);
+    const homeScreen = new HomeScreen(screen);
+    
+    await loginScreen.login('youcanautomate@gmail.com', 'Test123');
+    await  homeScreen.clickOnProduct();
+    await homeScreen.logout();
+});

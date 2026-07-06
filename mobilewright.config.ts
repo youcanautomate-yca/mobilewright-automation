@@ -5,6 +5,8 @@ export default defineConfig({
   bundleId: 'com.Imen.ecommerceApp',
   reporter: 'html',
   platform: 'ios',
-  deviceName: /youcanautomate1/,
-  timeout: 1000_000
+  // deviceName: /youcanautomate/,
+  timeout: 120_000,
+  workers: 3,
+  fullyParallel: true,
 });
